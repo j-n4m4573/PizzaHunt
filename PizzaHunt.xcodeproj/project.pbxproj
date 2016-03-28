@@ -12,6 +12,8 @@
 		5D84B96D1C630E8600ABA714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B96B1C630E8600ABA714 /* Main.storyboard */; };
 		5D84B96F1C630E8600ABA714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B96E1C630E8600ABA714 /* Assets.xcassets */; };
 		5D84B9721C630E8600ABA714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84B9701C630E8600ABA714 /* LaunchScreen.storyboard */; };
+		5D84B97A1C63114600ABA714 /* PizzaHuntTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B9791C63114600ABA714 /* PizzaHuntTVC.swift */; };
+		5D84B97C1C6311C500ABA714 /* Pizzerias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84B97B1C6311C500ABA714 /* Pizzerias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5D84B96E1C630E8600ABA714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D84B9711C630E8600ABA714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D84B9731C630E8600ABA714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D84B9791C63114600ABA714 /* PizzaHuntTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaHuntTVC.swift; sourceTree = "<group>"; };
+		5D84B97B1C6311C500ABA714 /* Pizzerias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizzerias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				5D84B9671C630E8600ABA714 /* AppDelegate.swift */,
+				5D84B9791C63114600ABA714 /* PizzaHuntTVC.swift */,
+				5D84B97B1C6311C500ABA714 /* Pizzerias.swift */,
 				5D84B9691C630E8600ABA714 /* ViewController.swift */,
 				5D84B96B1C630E8600ABA714 /* Main.storyboard */,
 				5D84B96E1C630E8600ABA714 /* Assets.xcassets */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D84B97A1C63114600ABA714 /* PizzaHuntTVC.swift in Sources */,
 				5D84B96A1C630E8600ABA714 /* ViewController.swift in Sources */,
 				5D84B9681C630E8600ABA714 /* AppDelegate.swift in Sources */,
+				5D84B97C1C6311C500ABA714 /* Pizzerias.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
